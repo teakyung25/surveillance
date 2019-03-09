@@ -1,0 +1,129 @@
+*{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+nav{
+  background-color: whitesmoke;
+  padding: 10px;
+}
+.sticky{
+  position: fixed;
+}
+
+#a_nav{
+  text-decoration: none;
+  padding: 10px;
+  color:gray;
+  font-size: 14px;
+}
+
+
+.background_div{
+  background-image:url("surveillance.jpg");
+  background-size: cover;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+#background_h1{
+  font-size: 3em;
+  color:black;
+  border: 1px solid black;
+  background-color: rgba(200, 200, 200, 0.5);
+  padding: 10px 20px;
+}
+section{
+  }
+
+.intro_info{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+#left_info{
+  grid-column: 1;
+}
+#right_info{
+  grid-column: 2;
+}
+#pos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.arguments_info{
+  position: relative;
+  height: 100%;
+}
+.arguments_info_div{
+
+}
+#img_surveillance{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+#left_arguments{
+  background-color:whitesmoke;
+  height: 100%;
+    padding: 10px;
+}
+#right_arguments{
+  height: 100%;
+  background-color: red;
+    padding: 10px;
+}
+.arguments1_info{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: whitesmoke;
+  height: 100%;
+}
+.quote_one{
+  background-color: gray;
+  padding: 10px;
+}
+
+#left_connections{
+  padding: 10px;
+}
+#right_connections{
+  padding: 10px;
+}
+
+p{
+    text-indent: 50px;
+}
+.surv_info{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+#left_infodown{
+  margin-top: -40px;
+}
+.intro_references{
+  background-color: whitesmoke;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+}
+#canvasEye{
+  width: 100%;
+  height: 100%;
+}
